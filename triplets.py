@@ -1,8 +1,8 @@
 import spacy
 
 nlp = spacy.load("en_core_web_sm")
-texti = input('Enter your sentence: ')
-text = nlp(texti)
+text_input = input('Enter your sentence: ')
+text = nlp(text_input)
 
 subjects = []
 subj = None
